@@ -1,0 +1,16 @@
+.nav-container{
+
+ margin: 0;
+    padding: 0;
+    width: 100%;
+    position: sticky;
+
+    z-index: 4; 
+
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: space-around;
+  list-style-type: none;
+
+  font-weight: bold; 
+}

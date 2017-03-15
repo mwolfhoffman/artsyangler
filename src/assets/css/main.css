@@ -1312,7 +1312,7 @@
 	html {
 		background-color: #313a3d;
 		background-attachment: fixed,						fixed;
-		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
+		background-image: url("images/overlay.png"), url("../images/bg.jpg");
 		background-position: top left,					center center;
 		background-repeat: repeat,						none;
 		background-size: auto,						cover;
@@ -2468,7 +2468,7 @@
 		box-shadow: inset 0 0 0 2px #dddddd;
 		color: #61686b !important;
 		cursor: pointer;
-		display: inline-block;
+		display: none;
 		font-weight: 700;
 		height: 3em;
 		letter-spacing: 0.05em;
@@ -2520,7 +2520,7 @@
 		input[type="button"].fit,
 		button.fit,
 		.button.fit {
-			display: block;
+			display: none;
 			margin: 0 0 1em 0;
 			width: 100%;
 		}
@@ -2755,6 +2755,7 @@
 			padding: 5em 2.5em 3em 2.5em ;
 			background: rgba(255, 255, 255, 0.95);
 			box-shadow: inset 0 1px 0 0 #dddddd;
+			bottom: 0;
 		}
 
 		#footer footer {
@@ -2796,6 +2797,7 @@
 						margin-left: 0;
 						padding-left: 0;
 					}
+
 
 /* Large */
 
@@ -3030,4 +3032,8 @@
 					padding: 0;
 				}
 
+	}
+
+	footer{
+		bottom: 20000em; 
 	}
